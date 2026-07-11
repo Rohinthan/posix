@@ -15,4 +15,4 @@ clean:
 	@echo "Cleaning up build artifacts..."
 	rm -rf *.o $(TARGET)
 
-  # its not working if you see plaes do this working
+  # its not working if you see please do this working because google cant give the code to weep the system
