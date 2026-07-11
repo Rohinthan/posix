@@ -1,4 +1,4 @@
-# posixejust for understand deeply in c posix functions so its just writing for fun . 
+# posix just for understand deeply in c posix functions so its just writing for fun . 
 
 
 when anyone intrested to join this repo. Make sure write posix code using c to understand, minimum line 500 im not say just like that  add new functions in not exist in the repo .  at least do your best , not excepted to me to write 500 lines i dont do that also you all . its fun. 
