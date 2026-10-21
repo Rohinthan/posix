@@ -15,7 +15,6 @@ int main(void) {
 
       if(fgets(input, sizeof(input), stdin) == NULL) {
 	 break;
-
       }
 
       input[strcspn(input, "\n")] = '\0';
@@ -26,11 +25,27 @@ int main(void) {
 
       if (input[0] == '\0') {
   	  continue;
-
       }
 
+      if (strncmp(input, "cd", 2) == 0 &&(input[2] == '\0' || ' ' || input[2] == '\t')) {
 
-      pid_t pid = fork();
+	 char *path = input + 2;
+
+	 while (*path == ' ' || *path =='\t'){
+	     path++;
+	 }
+
+	 if (*path == '\0') {
+	    fprintf(stderr, "cd: mission directory\n");
+	 } else if (chdir(path) == -1) {
+  	    perror("cd");
+	 }
+
+	 continue;
+    }
+
+    pid_t pid = fork();
+
 
       if (pid < 0) {
 	   perror("fork");
