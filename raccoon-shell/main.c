@@ -76,8 +76,8 @@ int main(void) {
       int status;
 
       while (waitpid(pid, &status, 0) < 0) {
-	perror("waitpid");
-	break;
+	  perror("waitpid");
+	  break;
       }
 
    }
