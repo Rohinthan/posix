@@ -6,7 +6,7 @@ Dont make any hardcoded to blast the fun and don't make them regret about openin
 
 ## warning 
 
-Small details don't copy paste on directly to the AI , if you do, make sure remove the emoji's and there bottom lines like " if you want i can create next program " , if I found i can't do anything to edit, so make it own, fun just test its run in your computer with mention what the process the function does like mine , check any file in this repo i wroted. Make your file like that and add some your own thuoghts through you're writing & what think about the line does . after you want upload this repo.D
+Small details if you want to push ur code on this repo don't copy paste on directly to the AI , if you do, make sure remove the emoji's and there bottom lines like " if you want i can create next program " , if I found i can't do anything to edit, so make it own, fun just test its run in your computer with mention what the process the function does like mine , check any file in this repo i wroted. Make your file like that and add some your own thuoghts through you're writing & what think about the line does . after you want upload this repo.D
 
 
 Don't make me to regret about the repo. like this and never execept thank you from me.
